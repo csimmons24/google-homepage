@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background-color: white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    text-align: center;
+    color: #5f6368;
+    width: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+
+a:hover, button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#top-menu {
+    padding: 3vh 12px;
+    font-size: small;
+    margin-bottom: 16vh;
+    color: #212121;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-left-longer {
+    width: 130px;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-right-longer {
+    width: 90px;
+}
+
+#sign-in {
+    background-color: #4285F4;
+    font-weight: bold;
+    font-size: small;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 32px;
+    width: 70px;
+    margin-top: -8px;
+    margin-left: -12px;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main {
+    width: 100vw;
+}
+
+#logo {
+    width: 100vw;
+    height: 92px;
+    background-image: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png");
+    background-position: center;
+    background-size: 272px 92px;
+    background-repeat: no-repeat;
+    margin-bottom: 3vh;
+}
+
+#searchdiv {
+    width: 584px;
+    height: 32px;
+    margin: 0 auto;
+    border-radius: 25px;
+    border: 1px solid #dfe1e5;
+    padding: 5px;
+}
+
+#searchdiv:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}
+
+#searchleft {
+    width: 14px;
+    height: 14px;
+    margin: 10px;
+    background-color: transparent;
+    background-image: url('search.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#searchright {
+    background-color: transparent;
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin: 5px 8px 5px 5px;
+    border: none;
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    padding: 6px;
+    color: black;
+    font-size: 16px;
+    width: 498px;
+}
+
+#buttons {
+    width: 318.25px;
+    margin: 0 auto;
+}
+
+.search-button {
+    background-color: #f4f4f4;
+    color: #5f6368;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    font-size: 14px;
+    margin: 24px 10px;
+    height: 36px;
+    padding: 0 14px;
+}
+
+.search-button:hover {
+    border: 1px solid #c6c6c6;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: sticky;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer li {
+    width: 90px;
+}
+
+#bottom-menu .float-right {
+    width: 70px;
+}
+
+#bottom-menu {
+    padding: 3vh 12px 4vh 12px;
+    margin-top: 34vh;
+    font-size: smaller;
+    font-family: arial, sans-serif;
+}
